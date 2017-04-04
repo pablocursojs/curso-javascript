@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Localstorage</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="guardarDatos.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<form name="formulario" class="form-horizontal" action="mostrar.html" onsubmit="return checkForm();">
+			<div class="form-group">
+		    <label for="nombre" class="col-sm-2 control-label">Nombre</label>
+		    <div class="col-sm-4">
+		      <input type="text" class="form-control" name="nombre" placeholder="Nombre">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="apellidos" class="col-sm-2 control-label">Apellidos</label>
+		    <div class="col-sm-4">
+		      <input type="text" class="form-control" name="apellidos" placeholder="Apellidos">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="direccion" class="col-sm-2 control-label">Dirección</label>
+		    <div class="col-sm-4">
+		      <input type="text" class="form-control" name="direccion" placeholder="Dirección">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="poblacion" class="col-sm-2 control-label">Población</label>
+		    <div class="col-sm-4">
+		      <input type="text" class="form-control" name="poblacion" placeholder="Población">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="cp" class="col-sm-2 control-label">CP</label>
+		    <div class="col-sm-4">
+		      <input type="text" class="form-control" name="cp" placeholder="CP">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="pais" class="col-sm-2 control-label">País</label>
+		    <div class="col-sm-4">
+		      <input type="text" class="form-control" name="pais" placeholder="País">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="email" class="col-sm-2 control-label">Email</label>
+		    <div class="col-sm-4">
+		      <input type="email" class="form-control" name="email" placeholder="Email">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="tlf" class="col-sm-2 control-label">Teléfono</label>
+		    <div class="col-sm-4">
+		      <input type="text" class="form-control" name="tlf" placeholder="Teléfono">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      <button type="submit" class="btn btn-default">Enviar</button>
+		    </div>
+		  </div>
+		</form>
+	</div>	
+
+</body>
+</html>

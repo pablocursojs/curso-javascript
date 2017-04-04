@@ -1,0 +1,15 @@
+p, form, #resultado{
+	margin: 30px;
+}
+
+p{
+	display: inline-block;
+	padding: 10px;
+	background-color: grey;
+	color: white;
+	font-weight: bold;
+}
+
+span{
+	font-weight: bold;
+}
